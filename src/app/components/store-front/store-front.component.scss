@@ -1,0 +1,27 @@
+.product-list {
+  list-style-type: none;
+  margin: 0px;
+}
+
+.product-container {
+    padding: 1px 10px 0px 0px;
+    position: relative;
+    border: 0px solid #EFEFEF;
+    margin: 0px 0px;
+
+  &:hover {
+    box-shadow: 0 0 5px rgba(50,50,50,0.3);
+  }
+
+  .product_image {
+    max-height: 250px;
+  }
+
+  .product_price {
+    float: right;
+    margin-top: 1rem;
+  }
+}
+ul {
+  columns: 2;
+}

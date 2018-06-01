@@ -1,0 +1,64 @@
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+p {
+  font-family: 'BioRhyme', serif;
+}
+
+.top-bar {
+  background-color: rgba(51,51,51,0.9);
+  color: white;
+  box-shadow: 0 0 10px rgba(51,51,51,0.6);
+  margin-bottom: 1rem;
+
+  ul {
+    background-color: transparent;
+  }
+}
+
+.text--red {
+  color: #b12704;
+}
+
+.text--bold {
+  font-weight: bold;
+}
+
+.button {
+  border-radius: 4px;
+  vertical-align: bottom;
+
+  &.success {
+    background-color: #5D8B00;
+    padding: 1rem 3rem;
+    color: #fff;
+
+    &:hover {
+      color: #fff;
+    }
+  }
+}
+body
+{
+	background-color: #fffff;
+	border-left: 150px solid black;
+	border-right: 150px solid black;
+	border-bottom: 35px solid black;
+	border-color:#2263bc;
+}
+footer
+{
+	margin-top:15%;
+	text-align:center;
+	border-color:#666;
+	border-width:thin;
+	border-top:dotted;
+	bottom: 0;
+}
+.fixed_BASKET{
+  position: fixed;
+    bottom: 20rem;
+    left: 65rem;
+    right: 10rem;
+}
